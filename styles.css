@@ -27,7 +27,7 @@ hr {
 }
 
 .container-center {
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -134,11 +134,18 @@ hr {
 }
 
 .section h1 {
+  margin-bottom: 1em;
   text-align: center;
 }
 
 .ow {
   background-color: var(--off-white);
+}
+
+/** CURRENT SECTION **/
+
+.current {
+  line-height: 2;
 }
 
 /** footers **/
