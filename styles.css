@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 
 :root {
   --primary-color: #14213d;
@@ -146,6 +146,7 @@ hr {
 
 .current {
   line-height: 2;
+  color: var(--primary-color);
 }
 
 /** footers **/
