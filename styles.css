@@ -40,18 +40,24 @@ hr {
 
 .link-primary {
   background-color: var(--primary-color);
-  /* border-radius: 0.5rem; */
   color: white;
   display: block;
   max-width: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
   color: var(--primary-color);
-  /* border-radius: 0.5rem; */
   border: 1px solid var(--primary-color);
   display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 140px;
   margin: 1rem 1rem 1rem 0rem;
 }
@@ -182,3 +188,30 @@ hr {
 .showcase-blog {
   padding-bottom: 6rem;
 }
+
+/* Documentation section  */
+
+.Doc-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.Doc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+/* .Doc-container blockquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
